@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Incorporating many technologies and design patterns',
-    paragraph: 'We use a variety of algorithms and libraries to predict the most accurate data about the air.'
+    paragraph: 'We use a variety of algorithms and libraries to predict the most accurate data about the air. From many models of forcast, we then choose the most reliable data.'
   };
 
   return (
@@ -162,7 +162,7 @@ const FeaturesTiles = ({
                     Linear Regression
                     </h4>
                   <p className="m-0 text-sm">
-                    
+                    One of many models of prediction 
                     </p>
                 </div>
               </div>
@@ -173,18 +173,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={require('./../../assets/images/k-nearest.png')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  <h4 className="mt-16 mb-8">
+                    K-Nearest Neighbor
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Another model of prediction
                     </p>
                 </div>
               </div>
