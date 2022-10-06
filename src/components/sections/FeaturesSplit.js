@@ -74,6 +74,9 @@ const FeaturesSplit = ({
                 <p className="m-0">
                     We used Beautiful Soup to crawl climate data of Ho Chi Minh or any desired place from <a href="https://en.tutiempo.net/climate" target="_blank"><i>https://en.tutiempo.net/</i></a>
                   </p>
+                <p className="m-0">
+                    Then, we process the data and predict the climate of forthcoming dates
+                  </p>
               </div>
               <div className={
                 classNames(
@@ -95,10 +98,10 @@ const FeaturesSplit = ({
                   To the execution
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Choosing the most precise output
+                    Not just the air
                   </h3>
                 <p className="m-0">
-                    As we use a wide range of Training Models, from <b>Lasso Regression to Random Forest Regressor</b>, we automatically have the output with highest accuracy chosen
+                    As we use a wide range of Training Models, from <b>Lasso Regression to Random Forest Regressor</b>, we automatically have the output <b>(temperature, humidity, windspeed, ...)</b> with highest accuracy chosen
                   </p>
               </div>
               <div className={
