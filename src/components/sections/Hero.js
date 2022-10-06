@@ -77,10 +77,9 @@ const Hero = ({
                         </div>
                     </div>
                     <div className="hero-figure reveal-from-bottom" data-reveal-value="20px" data-reveal-delay="800">
-                        TODO: Them hinh air quality qua cac nam
                         <Image
                             className="has-shadow"
-                            src={require('./../../assets/images/video-placeholder.jpg')}
+                            src={require('./../../assets/images/heatmap.PNG')}
                             alt="Hero"
                             width={896}
                             height={504} />
