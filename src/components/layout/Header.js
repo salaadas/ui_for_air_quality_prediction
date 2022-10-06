@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu} className="button button-primary">Documentation</Link>
+                      <a href="https://google.com" className="button button-primary">Source Code</a>
                     </li>
                   </ul>
                 </div>

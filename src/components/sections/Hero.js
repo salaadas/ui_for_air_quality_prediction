@@ -70,7 +70,7 @@ const Hero = ({
                             <div className="reveal-from-bottom" data-reveal-delay="600">
                                 <ButtonGroup>
                                     <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                                        Learn more
+                                        Try out the prediction
                                     </Button>
                                 </ButtonGroup>
                             </div>
