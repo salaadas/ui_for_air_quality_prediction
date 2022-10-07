@@ -24,10 +24,11 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
-    document.body.classList.add('is-loaded')
-    childRef.current.init();
-    trackPage(page);
+      const page = location.pathname;
+      document.body.classList.add('is-loaded')
+      childRef.current.init();
+      trackPage(page);
+      document.title = "Air Quality Predict"
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
