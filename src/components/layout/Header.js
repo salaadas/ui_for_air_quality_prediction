@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <a href="https://google.com" className="button button-primary">Source Code</a>
+                       <a href="https://github.com/lmBored/Air-Quality-Index-Predict" className="button button-primary">Source Code</a>
                     </li>
                   </ul>
                 </div>

@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Sample output',
-    paragraph: 'Here are some of the outputs predicted from many models'
+    title: 'Prediction for the next 4 days',
+    paragraph: 'PM 2.5 is for the amount of contamination in the air. AQI is for the overall quality of air'
   };
 
   return (
@@ -62,14 +62,12 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>Air quality:</b></p>
-                      <p><b>Temperature:</b></p>
-                      <p><b>Humidity:</b></p>
-                      <p><b>Windspeed:</b></p>
+                      <p><b>PM 2.5:</b> 210.752738</p>
+                      <p><b>AQI:</b> 80</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">December 12th</span>
+                  <span className="testimonial-item-name text-color-high">Oct 7th</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">2022</a>
@@ -82,37 +80,69 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>Air quality:</b></p>
-                      <p><b>Temperature:</b></p>
-                      <p><b>Humidity:</b></p>
-                      <p><b>Windspeed:</b></p>
+                      <p><b>PM 2.5:</b> 170.624330</p>
+                      <p><b>AQI:</b> 67</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">January 10th</span>
+                  <span className="testimonial-item-name text-color-high">Oct 8th</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">2023</a>
+                    <a href="#0">2022</a>
                   </span>
                 </div>
               </div>
             </div>
 
+              <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="testimonial-item-content">
+                  <div className="text-sm mb-0">
+                      <p><b>PM 2.5:</b> 158.324234</p>
+                      <p><b>AQI:</b> 91</p>
+                  </div>
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">Oct 9th</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="#0">2022</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+              <div className="tiles-item reveal-from-bottom">
+                  <div className="tiles-item-inner">
+                      <div className="testimonial-item-content">
+                          <div className="text-sm mb-0">
+                              <p><b>PM 2.5:</b> 190.252732</p>
+                              <p><b>AQI:</b> 103</p>
+                          </div>
+                      </div>
+                      <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                          <span className="testimonial-item-name text-color-high">Oct 10th</span>
+                          <span className="text-color-low"> / </span>
+                          <span className="testimonial-item-link">
+                              <a href="#0">2022</a>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>Air quality:</b></p>
-                      <p><b>Temperature:</b></p>
-                      <p><b>Humidity:</b></p>
-                      <p><b>Windspeed:</b></p>
+                      <p><b>PM 2.5:</b> 225.435437</p>
+                      <p><b>AQI:</b> 113</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">March 1st</span>
+                  <span className="testimonial-item-name text-color-high">Oct 11th</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">2023</a>
+                    <a href="#0">2022</a>
                   </span>
                 </div>
               </div>
