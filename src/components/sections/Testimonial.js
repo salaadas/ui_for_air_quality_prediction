@@ -44,7 +44,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Prediction for the next 4 days',
+    title: 'Prediction for the next 5 days',
     paragraph: 'PM 2.5 is for the amount of contamination in the air. AQI is for the overall quality of air'
   };
 
@@ -62,8 +62,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>PM 2.5:</b> 210.752738</p>
-                      <p><b>AQI:</b> 80</p>
+                      <p><b>PM 2.5:</b> 210.752738 (Very Unhealthy)</p>
+                      <p><b>AQI:</b> 80 (Moderate)</p>
+                      <p><b>Advice:</b> wear a mask when outside</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -80,8 +81,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>PM 2.5:</b> 170.624330</p>
-                      <p><b>AQI:</b> 67</p>
+                      <p><b>PM 2.5:</b> 170.624330 (Unhealthy)</p>
+                      <p><b>AQI:</b> 67 (Moderate)</p>
+                      <p><b>Advice:</b> wear a mask if possible</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -98,8 +100,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>PM 2.5:</b> 158.324234</p>
-                      <p><b>AQI:</b> 91</p>
+                      <p><b>PM 2.5:</b> 158.324234 (Unhealthy)</p>
+                      <p><b>AQI:</b> 91 (Moderate)</p>
+                      <p><b>Advice:</b> wear a mask if possible</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -116,8 +119,9 @@ const Testimonial = ({
                   <div className="tiles-item-inner">
                       <div className="testimonial-item-content">
                           <div className="text-sm mb-0">
-                              <p><b>PM 2.5:</b> 190.252732</p>
-                              <p><b>AQI:</b> 103</p>
+                              <p><b>PM 2.5:</b> 190.252732 (Unhealthy)</p>
+                              <p><b>AQI:</b> 103 (Unhealthy for sensitive people)</p>
+                              <p><b>Advice:</b> may want to wear a mask</p>
                           </div>
                       </div>
                       <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -134,8 +138,9 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <div className="text-sm mb-0">
-                      <p><b>PM 2.5:</b> 225.435437</p>
-                      <p><b>AQI:</b> 113</p>
+                      <p><b>PM 2.5:</b> 225.435437 (Very Unhealthy)</p>
+                      <p><b>AQI:</b> 113 (Unhealthy for sensitive people)</p>
+                      <p><b>Advice:</b> wear a mask when outside</p>
                   </div>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
